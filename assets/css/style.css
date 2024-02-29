@@ -1,0 +1,642 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: #ffffff !important;
+}
+
+.nav-link {
+    color: #1B4992 !important;
+    font-weight: 600 !important;
+}
+
+navbar-toggler .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.fas-btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+.searching-content {
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: #214496;
+
+}
+
+.btn {
+    background-color: #214496 !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.no-border {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form-select,
+.form-control {
+    background-color: #daecf6 !important;
+    border: 1px solid #214496 !important;
+
+}
+
+.form-select:hover,
+.form-control:hover {
+    background-color: #daecf6 !important;
+    border: 1px solid #214496 !important;
+    outline: none !important;
+}
+
+input:hover {
+    background-color: #daecf6;
+    border: 1px solid #214496 !important;
+    outline: none !important;
+}
+
+input::placeholder {
+    font-size: 14px;
+    /* Adjust the percentage as needed */
+}
+
+.input-outline:focus {
+    outline: 2px solid blue;
+    /* Set the outline color and width */
+}
+
+.input-border:focus {
+    border: 2px solid blue;
+    /* Set the border color and width */
+}
+
+*:focus {
+    outline: none;
+}
+
+.searching-content {
+    margin-top: -115px;
+    background-color: white !important;
+}
+
+.student-apply {
+
+    background-color: #f3f9fc;
+    margin-top: 100px;
+
+}
+
+.student-apply-part-two {
+    margin-top: 110px;
+}
+
+.student-apply-headone,
+.student-apply-headthree {
+    color: #214496;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.student-apply-headtwo {
+    color: #1487c9;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.student-apply-img {
+    width: 100%;
+    height: 450px;
+    margin-top: -100px;
+
+}
+
+.platforms {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    border-style: dotted;
+    border-color: #214496;
+
+    border-radius: 20px;
+}
+
+.btn-support-section-one,
+.btn-support-section-two,
+.btn-support-section-three {
+    background-color: white !important;
+    color: black !important;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.support-section-one-content-part-two {
+    margin-top: 20px;
+}
+
+.btn-support-section-one:hover,
+.btn-support-section-two:hover,
+.btn-support-section-three:hover {
+    background-color: #214496 !important;
+    color: white !important;
+    border-radius: 20px;
+}
+
+.platforms .btn.active {
+    background-color: #214496 !important;
+    color: white !important;
+    border-radius: 20px;
+}
+
+.support-section-one-content-part-one img {
+    width: 100%;
+}
+
+.support-section-footer-img img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.admission_ac_popular_section {
+    background-color: #ffffff;
+}
+
+.admission_ac_popular_section_head,
+.admission_ac_study_abroad_head {
+    text-align: center;
+    /* Center align the text */
+}
+
+.admission_ac_popular_section h3,
+.admission_ac_study_abroad h3 {
+    display: inline-block;
+    line-height: 50px;
+    border-bottom: 2px dotted #214496;
+    text-align: center;
+}
+
+.admission_ac_popular_section_browse {
+    display: inline-block;
+    /* line-height: 10px; */
+    border-bottom: 1px dotted #214496;
+}
+
+.admission_ac_study_abroad_step_one {
+    border-bottom: 2px solid #214496;
+    line-height: 120px;
+}
+
+.admission_ac_footer-one img {
+    width: 100%;
+}
+
+.admission_ac_footer-two,
+.admission_ac_footer_three {
+    background-color: #214496;
+    color: white;
+    margin-top: -5px;
+}
+
+.admission_ac_footer_two_img {
+    margin-top: 60px;
+}
+
+.admission_ac_social_link {
+    display: flex;
+
+
+}
+
+.admission_ac_social_link a {
+
+    padding-left: 20px;
+
+}
+
+.admission_ac_partner_login_card_start .card {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.admission_ac_partner_login_card_start {
+    /* background-color: #f3f9fc; */
+}
+
+.admission_ac_partner_login_left_content {
+    background-image: url('https://mohiuddin27.github.io/admission_ac/assets/images/partner_login_left.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.partner_login_sign_up input {
+    background-color: #e3f1ff4a !important;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Ensure full viewport height */
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensure the video covers the entire container */
+}
+
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    /* Ensure the overlay content is above the video */
+    background-color: rgba(6, 61, 112, 0.687);
+}
+
+.video-content h1 {
+    font-size: 60px
+}
+
+.video-content .btn:hover {
+    color: white !important;
+}
+
+.slider-header {
+    background-color: transparent;
+    /* Change to desired background color */
+    color: black;
+    /* Change to desired text color */
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slider-header.active {
+    background-color: #214496;
+    /* Change to desired background color */
+    color: white;
+    /* Change to desired text color */
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slick-slider {
+    margin: 0 -10px;
+    /* Adjust the gap size as needed */
+}
+
+.slick-slide {
+    margin: 0 10px;
+    /* Adjust the gap size as needed */
+}
+
+.institutions-slider img {
+    width: 50%;
+
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Modal Content */
+/* Modal Content */
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    max-height: 100%;
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    animation-name: modalopen;
+    animation-duration: 0.4s;
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.student-feedback img {
+    width: 370px;
+    height: 270px;
+    object-fit: cover;
+
+}
+
+.student-content {
+    position: relative;
+    cursor: pointer;
+}
+
+.stuent-overlay-content {
+    position: absolute;
+    bottom: 0;
+    color: white;
+
+}
+.video-icon{
+    position:absolute;
+    top:40%;
+    height:100%;
+    left:50%;
+    color:rgba(255, 255, 255, 0.626);
+   font-size:40px;
+   cursor: pointer;
+}
+.partner-feedback img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+.student-content {
+    position: relative;
+    cursor: pointer;
+}
+.user-registration-section img{
+    width:50%;
+    
+}
+.recuriter_login{
+    margin-top:70px;
+}
+.subjects {
+    height: 300px; /* Set the desired fixed height */
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+    padding-right: 10px; /* Add some padding to the right to accommodate the scrollbar */
+}
+.iti{
+    width:100%;
+}
+.form-div-contact input, .form-div-contact textarea{
+    background-color: white!important;
+    border:none!important;
+}
+
+.contactinfo{
+    background-color: #2457aa;
+}
+.team-about{
+    width:30%;
+}
+.team img{
+  
+    width:270px;
+    height:200px;
+    border-radius: 50%;
+    object-fit: contain;
+  
+}
+.fa-thumbs-up{
+    color:#214496;
+}
+.header-first{
+    background-color: #1487C9;
+}
+.dropdown-item{
+    color:rgba(5, 5, 5, 0.703);
+    font-weight: 500;
+    font-size:15px
+}
+.dropdown-item:hover{
+    background-color: #214496!important;
+    color:white!important;
+}
+.destinations img{
+    width:100%;
+}
+/* custom cursor */
+.custom-cursor__cursor {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid var(--b-advancy-base, #214496);
+    -webkit-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(calc(-50% + 5px), -50%);
+    transform: translate(calc(-50% + 5px), -50%);
+    z-index: 999991;
+  }
+  
+  .custom-cursor__cursor-two {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: var(--b-advancy-base, #214496);
+    opacity: 0.5;
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    -webkit-transition: width 0.3s, height 0.3s, opacity 0.3s;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+    z-index: 999991;
+  }
+  
+  .custom-cursor__hover {
+    background-color: var(--b-advancy-base, #214496);
+    opacity: 0.6;
+  }
+  
+  .custom-cursor__innerhover {
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+  }
+  .nav-link:hover{
+    background-color: #214496!important;
+    color:white!important;
+    padding:5px;
+    border-radius: 7px;
+  }
+  .nav-link{
+    border-radius: 7px;
+  }
+@media(max-width:600px) {
+    .student-apply-img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px !important;
+
+
+    }
+
+    .search-btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .searching-content {
+        margin-top: -115px;
+        background-color: white !important;
+    }
+
+    .student-apply-part-two {
+        margin-top: 10px;
+    }
+
+    .platforms {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        margin: 0 auto;
+        border-style: dotted;
+        border-color: #214496;
+
+        border-radius: 20px;
+        padding: 5px;
+    }
+    .team-about{
+        width:100%;
+    }
+    .platforms .btn {
+        margin-top: 5px;
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .support-section-one-content-part-two {
+        margin-top: 10px !important;
+        margin-bottom: 30px
+    }
+
+    .admission_ac_footer_two_img {
+        margin-top: 10px !important;
+    }
+
+    .admission_ac_social_link {
+
+        justify-content: center;
+
+    }
+
+    .admission_ac_social_link a {
+
+        padding: 10px;
+
+    }
+
+    .admission_ac_partner_login_left_content {
+        display: none;
+    }
+
+    .admission_ac_partner_login_card_start .card {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .video-content h1 {
+        font-size: 35px
+    }
+
+    .video-content .btn {
+        width: 100% !important;
+    }
+
+    .student-feedback img {
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
+    .recuriter_login{
+        margin-top:10px;
+    }
+    .team img{
+        width:100%;
+        
+      
+    }
+    .head-one{
+        text-align: center;
+        
+    }
+   .head-two-menu{
+    padding-top:5px!important;
+   }
+   .head-three{
+    padding-bottom:7px;
+   }
+   .dropdown-toggle{
+    display: flex;
+    justify-content: center;
+   }
+   .dropdown-toggle::after{
+    margin-top: 10px!important;
+   }
+}
